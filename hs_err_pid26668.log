@@ -1,0 +1,36 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffba939be73, pid=26668, tid=27536
+#
+# JRE version: Java(TM) SE Runtime Environment (12.0.2+10) (build 12.0.2+10)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (12.0.2+10, mixed mode, sharing, tiered, compressed oops, g1 gc, windows-amd64)
+# Problematic frame:
+# V  [jvm.dll+0x39be73]
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Dfile.encoding=Cp1252 coursework.StartNoGui
+
+Host: AMD Ryzen 5 2600 Six-Core Processor            , 12 cores, 15G,  Windows 10 , 64 bit Build 18362 (10.0.18362.329)
+Time: Thu Mar 26 16:33:09 2020 GMT Standard Time elapsed time: 1334 seconds (0d 0h 22m 14s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000229acd97800):  JavaThread "AWT-Windows" daemon [_thread_in_vm, id=27536, stack(0x000000d436300000,0x000000d436400000)]
+
+Stack: [0x000000d436300000,0x000000d436400000],  sp=0x000000d4363f72a0,  free space=988k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x39be73]
+V  [jvm.dll+0x63a952]
+V  [jvm.dll+0x39c3ef]
+V  [jvm.dll+0x39d11b]
+V  [jvm.dll+0x2e19c4]
+V  [jvm.dll+0x2e1c0c]
+V  [jvm.dll+0x2e10b4]
